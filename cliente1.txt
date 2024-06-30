@@ -1,0 +1,7 @@
+- Cliente CPF=1948141, nome=Maria Silva
+	 * Solicitação de Exame 1000, ano=2023, mes=12, CRM=19401
+		 - Exame de Hemograma | R$ 10.0
+		 - Exame de Transaminase Oxalacética | R$ 3.99
+	 * Solicitação de Exame 1001, ano=2024, mes=4, CRM=20511
+		 - Exame de Hormônio Tireoestimulante | R$ 19.72
+		 - Exame de Transaminase Glutâmico Pirúvica | R$ 4.25
