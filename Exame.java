@@ -70,4 +70,15 @@ public class Exame implements Comparable<Exame> {
 	public int compareTo(Exame outroExame) {
 		return this.nome.compareTo(outroExame.nome);
 	}
+/* ----------------------------------------------------------------------------------------- */
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("Nome do Exame: ").append(this.getNome()).append("\n");
+		sb.append("Código do Exame: ").append(this.getCodigo()).append("\n");
+		sb.append("Preço do Exame: ").append(this.getPreco()).append("\n");
+		return sb.toString();
+	}
+
 }

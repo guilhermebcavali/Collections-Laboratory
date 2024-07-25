@@ -16,8 +16,8 @@ public class Laboratorio {
 	/*------------------------------------------------------------------------------------------*/
 
 	public Laboratorio() {
-		this.exames = new TreeSet<Exame>(); // TreeSet --> Árvore (não usa o hashCode()) --> implementa a interface Comparator;
-		this.clientes = new TreeSet<Cliente>(); // TreeSet --> Árvore (não usa o hashCode()) --> implementa a interface Comparator;
+		this.exames = new TreeSet<Exame>(); // TreeSet --> Árvore (não usa o hashCode()) --> implementa a interface Comparator --> Utiliza um TreeMap para armazenar os elementos (NODOS);
+		this.clientes = new TreeSet<Cliente>(); // TreeSet --> Árvore (não usa o hashCode()) --> implementa a interface Comparator --> Utiliza um TreeMap para armazenar os elementos (NODOS);
 		this.clientesPorExame = new HashMap<>(); // HashMap --> utiliza o hashCode();
 	}
 
